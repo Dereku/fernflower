@@ -1,3 +1,3 @@
 public interface ac {
-   void a() throws Exception;
+    void a() throws Exception;
 }

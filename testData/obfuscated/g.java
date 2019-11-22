@@ -1,3 +1,3 @@
 public interface g<V> {
-   boolean a(V var1);
+    boolean a(V var1);
 }

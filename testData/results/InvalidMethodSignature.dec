@@ -7,44 +7,44 @@ import a.a.a.a.e.bg;
 import java.io.File;
 
 class i implements bg {
-   private final j a;
-   private final b b;
+    private final j a;
+    private final b b;
 
-   i(b var1, j var2) {
-      this.b = var1;// 1
-      this.a = var2;
-   }
+    i(b var1, j var2) {
+        this.b = var1;// 1
+        this.a = var2;
+    }
 
-   public void a(c var1, k var2, boolean var3) {
-      File var4 = this.a.b().a(var1);// 2
-      a.a.a.a.e.f.b.a(this.b).add(var4);// 3
-   }// 4
+    public void a(c var1, k var2, boolean var3) {
+        File var4 = this.a.b().a(var1);// 2
+        a.a.a.a.e.f.b.a(this.b).add(var4);// 3
+    }// 4
 
-   public void a(a.a.a.a.c.b var1) {
-   }// 0
+    public void a(a.a.a.a.c.b var1) {
+    }// 0
 }
 
 class 'a/a/a/a/e/f/i' {
-   method '<init> (La/a/a/a/e/f/b;La/a/a/a/c/j;)V' {
-      2      13
-      7      14
-      e      15
-   }
+    method '<init> (La/a/a/a/e/f/b;La/a/a/a/c/j;)V' {
+        2        13
+        7        14
+        e        15
+    }
 
-   method 'a (La/a/a/a/c/c;La/a/a/a/a/k;Z)V' {
-      1      18
-      4      18
-      a      18
-      f      18
-      12      19
-      15      19
-      1a      19
-      20      20
-   }
+    method 'a (La/a/a/a/c/c;La/a/a/a/a/k;Z)V' {
+        1        18
+        4        18
+        a        18
+        f        18
+        12        19
+        15        19
+        1a        19
+        20        20
+    }
 
-   method 'a (La/a/a/a/c/b;)V' {
-      0      23
-   }
+    method 'a (La/a/a/a/c/b;)V' {
+        0        23
+    }
 }
 
 Lines mapping:

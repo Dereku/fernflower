@@ -1,19 +1,19 @@
 package pkg;
 
 public class TestAnonymousParamNames {
-   private final TestAnonymousParamNames.Clazz reference = new TestAnonymousParamNames.Clazz(0L, false) {
-   };
+    private final TestAnonymousParamNames.Clazz reference = new TestAnonymousParamNames.Clazz(0L, false) {
+    };
 
-   private class Clazz {
-      public Clazz(long paramL, boolean paramB) {
-      }// 25
-   }
+    private class Clazz {
+        public Clazz(long paramL, boolean paramB) {
+        }// 25
+    }
 }
 
 class 'pkg/TestAnonymousParamNames$Clazz' {
-   method '<init> (Lpkg/TestAnonymousParamNames;JZ)V' {
-      9      8
-   }
+    method '<init> (Lpkg/TestAnonymousParamNames;JZ)V' {
+        9        8
+    }
 }
 
 Lines mapping:

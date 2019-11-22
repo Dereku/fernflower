@@ -1,16 +1,16 @@
 import java.util.function.Consumer;
 
 public class TestMethodReferenceLetterClass {
-   void boo() {
-      Consumer var1 = R::foo;// 21
-   }// 22
+    void boo() {
+        Consumer var1 = R::foo;// 21
+    }// 22
 }
 
 class 'TestMethodReferenceLetterClass' {
-   method 'boo ()V' {
-      5      4
-      6      5
-   }
+    method 'boo ()V' {
+        5        4
+        6        5
+    }
 }
 
 Lines mapping:

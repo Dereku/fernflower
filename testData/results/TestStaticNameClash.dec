@@ -1,18 +1,18 @@
 package pkg;
 
 public class TestStaticNameClash {
-   public static String property;
+    public static String property;
 
-   public static void setProperty(String property) {
-      TestStaticNameClash.property = property;// 8
-   }// 9
+    public static void setProperty(String property) {
+        TestStaticNameClash.property = property;// 8
+    }// 9
 }
 
 class 'pkg/TestStaticNameClash' {
-   method 'setProperty (Ljava/lang/String;)V' {
-      1      6
-      4      7
-   }
+    method 'setProperty (Ljava/lang/String;)V' {
+        1        6
+        4        7
+    }
 }
 
 Lines mapping:

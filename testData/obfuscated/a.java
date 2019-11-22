@@ -3,37 +3,37 @@ import java.util.Iterator;
 import java.util.List;
 
 public interface a<K, V> {
-   String a();
+    String a();
 
-   int b();
+    int b();
 
-   int c();
+    int c();
 
-   long d();
+    long d();
 
-   List<Long> e();
+    List<Long> e();
 
-   Long f();
+    Long f();
 
-   List<Long> g();
+    List<Long> g();
 
-   Date h();
+    Date h();
 
-   void i();
+    void i();
 
-   void j();
+    void j();
 
-   V a(K var1);
+    V a(K var1);
 
-   V a(K var1, f<K, V> var2);
+    V a(K var1, f<K, V> var2);
 
-   void a(K var1, V var2);
+    void a(K var1, V var2);
 
-   void b(K var1);
+    void b(K var1);
 
-   boolean c(K var1);
+    boolean c(K var1);
 
-   Iterator<K> k();
+    Iterator<K> k();
 
-   List<b<K, V>> l();
+    List<b<K, V>> l();
 }

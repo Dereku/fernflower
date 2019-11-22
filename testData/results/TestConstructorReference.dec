@@ -1,14 +1,14 @@
 public class TestConstructorReference {
-   void boo() {
-      Runnable aNew = TestConstructorReference::new;// 22
-   }// 23
+    void boo() {
+        Runnable aNew = TestConstructorReference::new;// 22
+    }// 23
 }
 
 class 'TestConstructorReference' {
-   method 'boo ()V' {
-      5      2
-      6      3
-   }
+    method 'boo ()V' {
+        5        2
+        6        3
+    }
 }
 
 Lines mapping:

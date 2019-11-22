@@ -1,8 +1,8 @@
 @aa(
-   a = {ac.class}
+    a = {ac.class}
 )
 public class c implements ac {
-   public void a() throws Exception {
-      d.b();
-   }
+    public void a() throws Exception {
+        d.b();
+    }
 }

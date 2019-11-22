@@ -1,27 +1,27 @@
 package pkg;
 
 public interface TestInterfaceSuper {
-   default void defaultMethod() {
-   }// 4
+    default void defaultMethod() {
+    }// 4
 
-   public static class Impl implements TestInterfaceSuper {
-      public void defaultMethod() {
-         TestInterfaceSuper.super.defaultMethod();// 8
-      }// 9
-   }
+    public static class Impl implements TestInterfaceSuper {
+        public void defaultMethod() {
+            TestInterfaceSuper.super.defaultMethod();// 8
+        }// 9
+    }
 }
 
 class 'pkg/TestInterfaceSuper' {
-   method 'defaultMethod ()V' {
-      0      4
-   }
+    method 'defaultMethod ()V' {
+        0        4
+    }
 }
 
 class 'pkg/TestInterfaceSuper$Impl' {
-   method 'defaultMethod ()V' {
-      1      8
-      4      9
-   }
+    method 'defaultMethod ()V' {
+        1        8
+        4        9
+    }
 }
 
 Lines mapping:

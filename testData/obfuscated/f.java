@@ -1,3 +1,3 @@
 public interface f<K, V> {
-   V a(K var1);
+    V a(K var1);
 }

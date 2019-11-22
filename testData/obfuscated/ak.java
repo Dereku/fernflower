@@ -1,11 +1,11 @@
 public interface ak {
-   String a();
+    String a();
 
-   String b();
+    String b();
 
-   String c();
+    String c();
 
-   double d();
+    double d();
 
-   Double e();
+    Double e();
 }

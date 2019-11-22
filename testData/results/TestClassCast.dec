@@ -4,28 +4,28 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TestClassCast {
-   public void test(List var1) {
-      Object var2 = var1;// 22
-      if (var1 != null) {// 23
-         ((List)(var2 = new ArrayList(var1))).add("23");// 24
-      }
+    public void test(List var1) {
+        Object var2 = var1;// 22
+        if (var1 != null) {// 23
+            ((List)(var2 = new ArrayList(var1))).add("23");// 24
+        }
 
-      System.out.println(((List)var2).size());// 26
-   }// 27
+        System.out.println(((List)var2).size());// 26
+    }// 27
 }
 
 class 'pkg/TestClassCast' {
-   method 'test (Ljava/util/List;)V' {
-      1      7
-      3      8
-      f      9
-      10      9
-      12      9
-      18      12
-      1c      12
-      21      12
-      24      13
-   }
+    method 'test (Ljava/util/List;)V' {
+        1        7
+        3        8
+        f        9
+        10        9
+        12        9
+        18        12
+        1c        12
+        21        12
+        24        13
+    }
 }
 
 Lines mapping:

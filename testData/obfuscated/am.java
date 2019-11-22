@@ -1,3 +1,3 @@
 public interface am {
-   void a(k<ak> var1);
+    void a(k<ak> var1);
 }

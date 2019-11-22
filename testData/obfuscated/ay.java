@@ -1,3 +1,3 @@
 public interface ay {
-   void a(a0 var1);
+    void a(a0 var1);
 }

@@ -1,25 +1,25 @@
 package pkg;
 
 public class TestExtendsList {
-   static <T extends Comparable<? super T>> T m1(T var0) {
-      return null;// 20
-   }
+    static <T extends Comparable<? super T>> T m1(T var0) {
+        return null;// 20
+    }
 
-   static <T extends Object & Comparable<? super T>> T m2(T var0) {
-      return null;// 24
-   }
+    static <T extends Object & Comparable<? super T>> T m2(T var0) {
+        return null;// 24
+    }
 }
 
 class 'pkg/TestExtendsList' {
-   method 'm1 (Ljava/lang/Comparable;)Ljava/lang/Comparable;' {
-      0      4
-      1      4
-   }
+    method 'm1 (Ljava/lang/Comparable;)Ljava/lang/Comparable;' {
+        0        4
+        1        4
+    }
 
-   method 'm2 (Ljava/lang/Object;)Ljava/lang/Object;' {
-      0      8
-      1      8
-   }
+    method 'm2 (Ljava/lang/Object;)Ljava/lang/Object;' {
+        0        8
+        1        8
+    }
 }
 
 Lines mapping:

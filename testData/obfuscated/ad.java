@@ -1,3 +1,3 @@
 public interface ad {
-   String a();
+    String a();
 }
